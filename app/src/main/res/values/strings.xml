@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Daniel Portfolio</string>
+
+    <string name="about_daniel">
+        "   Hi, my name is Daniel.
+        I am the student of Computer Science at Polish- Japanese academy of Computer Technologies. I was also studying at SGH (Warsaw School of Economics). Since I didn't really enjoy economics, I've decided to switch to engineering. I am passionate about creating things and inventing new solutions to our daily problems. This is why I've changed my college.
+        My mission is to bring more value to the IT world and contribute to some great work.
+    </string>
+
+    <string name="skills">* Java "\n"* Advanced English "\n"* Android "\n"* Android Studio</string>
+
+    <string name="work">* Crypto Reflex Game "\n"* Inspiracje (Quotes App) "\n"* MyCustomWeather "\n"* DaWinci</string>
+
+    <string name="contact">
+
+
+
+    </string>
+
+</resources>

@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.danie.danielportfolio.views.WorkFragment">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardViewWork"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        app:cardElevation="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/work"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:text="@string/work"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/playStore"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/cardViewWork"
+        android:layout_centerHorizontal="true"
+        android:text="Play Store"
+        android:onClick="goToPlay"
+        android:textSize="23sp"
+        android:drawableLeft="@drawable/ic_play_arrow_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
